@@ -1,4 +1,6 @@
-package ADS.Sorting;
+package Sorting;
+
+// package ADS.Sorting;
 import java.util.*;
 public class MergeSort {
     public static void main(String[] args) {
