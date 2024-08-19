@@ -39,7 +39,6 @@ public class KnapSack{
     }
     static double fractionalKnapsack(Item[] objects,int m){
         double totalProfit = 0;
-        double current_capacity = 0;
         int remainingCapacity = m;
         for (Item item : objects) {
             if (remainingCapacity == 0) {
